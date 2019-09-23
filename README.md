@@ -9,6 +9,5 @@ $ docker-compose up
 
 # attach
 
-$ docker attach sapphire_back
-$ docker attach sapphire_front
-```i
+$ docker attach docchi_back
+```
