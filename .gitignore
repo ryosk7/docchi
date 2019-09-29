@@ -1,1 +1,4 @@
 /db/
+back/.env
+back/.ash_history
+back/.gem/

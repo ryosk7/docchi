@@ -16,7 +16,8 @@ RUN apk update && \
     apk add --update --no-cache ${RUNTIME_PACKAGES} && \
     apk add --update --virtual build-dependencies --no-cache ${DEV_PACKAGES} && \
     bundle install -j4 && \
-    apk del build-dependencies
+    apk del build-dependencies && \
+    apk add --no-cache gmp-dev
 
 ADD . ${HOME}
 
